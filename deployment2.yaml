@@ -1,17 +1,17 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: hello-world
+  name: who
 spec:
   replicas: 2
   selector:
     matchLabels:
-      app: hello-world-2048
+      app: who
   template:
     metadata:
       labels:
-        app: hello-world-2048
+        app: who
     spec:
       containers:
-        - image: kubespheredev/2048:latest
-          name: game-2048
+        - image: traefik/whoami
+          name: who

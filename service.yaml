@@ -9,4 +9,4 @@ spec:
     - name: "hello-world"
       port: 80
   selector:
-    app: hello-world
+    app: hello-world-2048

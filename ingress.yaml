@@ -19,3 +19,14 @@ spec:
                   number: 80
             path: /
             pathType: "Prefix"
+    - host: who.1c6178f0-54f7-47e9-b3ed-4313459b63cc.k8s.civo.com
+      http:
+        paths:
+          -
+            backend:
+              service:
+                name: who
+                port:
+                  number: 80
+            path: /
+            pathType: "Prefix"
