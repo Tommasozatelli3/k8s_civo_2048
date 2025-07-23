@@ -1,0 +1,10 @@
+Name: test-tommaso
+Version: 1.30.5-k3s1 
+Network: default
+Type: K3s
+Node total: 2 nodes
+External IP: Creating
+API Endpoint: N/A
+DNS Name: 1c6178f0-54f7-47e9-b3ed-4313459b63cc.k8s.civo.com
+CNI: Flannel
+Volume Type: standard
